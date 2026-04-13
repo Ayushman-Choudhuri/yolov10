@@ -1,0 +1,32 @@
+# dataset.yaml for FiftyOne YOLO import
+train: ../../../../dataset/images/train  # path to your training images
+val: ../../../../dataset/images/val       # path to your validation images
+test: ../../../../dataset/images/test    # optional path to test images
+
+nc: 25                   
+names:
+    0: potato-red
+    1: potato-yellow
+    2: cut-growth-crack
+    3: cut-deep
+    4: cut-fine
+    5: damage-general
+    6: damage-mechanical
+    7: hole
+    8: green
+    9: green-sunburn
+    10: scab-black
+    11: scab-common
+    12: scab-silver
+    13: scab-tiger
+    14: sprouts-black
+    15: sprouts-white
+    16: damage-rhizoctonia
+    17: foreign-object
+    18: rock
+    19: irregular
+    20: old-potato
+    21: soil-spot
+    22: clod
+    23: damage-fine
+    24: sprouts-mature
